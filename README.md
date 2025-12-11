@@ -1,84 +1,89 @@
-📄 ✂️ Stone Paper Scissors – Simple Web Game
+Rock–Paper–Scissors Game – HTML, CSS & JavaScript
+A simple and interactive Rock–Paper–Scissors game built using HTML, CSS, and JavaScript. This project allows the user to play against the computer with real-time score updates and clean UI elements. A great beginner-friendly JavaScript logic project.
 
-A lightweight and fun Stone–Paper–Scissors game built using HTML, CSS, and JavaScript.
-The user selects one of three options (stone, paper, or scissor), and the computer randomly chooses its move. The final result is displayed using an alert popup.
+🛠 Technologies Used
+HTML5
 
-🎮 Demo
+CSS3
 
-The game interface features three clickable images representing:
+JavaScript (Vanilla JS)
 
-Stone
+DOM Manipulation
 
-Paper
+Event Listeners
 
-Scissor
+📁 Folder Structure
+/ (root)
+├─ index.html
+├─ style.css
+├─ logic.js
+├─ rock.png
+├─ paper.png
+└─ scissors.png
+✨ Features
+✔ 1. Clickable Choices
+Rock, Paper, and Scissor icons
 
-Clicking any option triggers the game logic, randomly generating the computer's move and showing the result.
+Hover and active effects
 
-📁 Project Structure
-project-folder/
-│
-├── index.html
-├── 1.png        (image for stone)
-├── 2.png        (image for paper)
-├── 3.png        (image for scissor)
+Circle-styled buttons
 
-🛠️ Technologies Used
+✔ 2. Game Logic
+Random computer selection
 
-HTML5 – Structure of the game
+Win / Lose / Draw calculation
 
-CSS3 – Basic styling
+Real-time console logs for debugging
 
-JavaScript – Game logic and random computer move generation
+✔ 3. Live Scoreboard
+Tracks User Score
 
-🚀 How to Run the Game
+Tracks Computer Score
 
-Download or clone this project:
+Updates instantly after each match
 
-git clone <repository-url>
+✔ 4. Dynamic Messages
+Green message for Win
 
+Red message for Lose
 
-Place the image files (1.png, 2.png, 3.png) in the same directory as index.html.
+Gray message for Draw
 
-Open index.html in your browser.
+Clean notification box
 
-Click any icon (stone, paper, or scissor) to start playing!
+🔧 How to Run Locally
+Clone or download this repository:
+git clone https://github.com/DurgeshPatil-03/Rock-Paper-Scissors-Game
 
-🧠 Game Logic
+Open the project folder
 
-The computer generates a random number between 0 and 1 using:
+Double-click index.html to run in your browser
 
-Math.random();
+No installation required.
 
+📈 Future Improvements
+Add sound effects
 
-Based on this value, the computer selects one of the three moves.
+Add animations for win/lose
 
-The game compares the player's choice with the computer's choice and shows:
+Add restart button
 
-✅ YOU WIN
+Improve responsiveness for mobile
 
-❌ YOU LOSE
+📸 Screenshots
+🟦 Game Start
+game start
 
-🔁 TIE
+🔴 You Lose
+You Lose
 
-📸 Screenshots (Optional)
+⚫️ Match Draw
+Match Draw
 
-You may add game screenshots here after running the project.
+🟩 You Win
+You Win
 
-📌 Future Improvements
+👤 Author
+Durgesh Shewale
 
-Here are some ideas to improve the project:
-
-Replace alerts with an on-screen result display
-
-Add score tracking for user and computer
-
-Add animations and sound effects
-
-Improve responsive layout
-
-Add dark mode
-
-📄 License
-
-This project is free to use and modify. No restrictions.
+Frontend Developer (HTML/CSS/JS)
