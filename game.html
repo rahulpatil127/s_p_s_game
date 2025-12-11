@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stone paper scissors</title>
+</head>
+
+<style>
+    img {
+        width: 90px;
+        border-radius: 8px;
+    }
+
+    button {
+        border-radius: 12px;
+        background-color: yellow;
+    }
+
+    body {
+        margin: auto;
+        text-align: center;
+    }
+
+    .game{ margin-top: 200px;
+
+    }
+</style>
+
+
+<body>
+    <div class="game">
+        <h1>stone paper scissors</h1>
+        <button onclick=" 
+    let computerMove = '';
+    let randomNumber = Math.random();
+    if (randomNumber > 0 && randomNumber < 1/3)
+    computerMove = 'stone'
+    else if (randomNumber > 1/3 && randomNumber < 2/3)
+    {computerMove = 'paper'}
+    else if (randomNumber > 2/3 && randomNumber < 1)
+    {computerMove = 'scissor'} 
+    
+    let result = '';
+    if (computerMove === 'stone'){ result = 'TIE'}
+    else if(computerMove === 'paper'){ result = 'YOU LOSE'}
+    else if(computerMove === 'scissor'){ result = 'YOU WIN'}
+    alert(`you select stone, computer select ${computerMove}:- ${result}`)
+    "><img src="1.png"></button>
+
+        <button onclick="
+        computerMove = '';
+        randomNumber = Math.random();
+        if (randomNumber > 0 && randomNumber < 1/3)
+    computerMove = 'paper'
+    else if (randomNumber > 1/3 && randomNumber < 2/3)
+    {computerMove = 'stone'}
+    else if (randomNumber > 2/3 && randomNumber < 1)
+    {computerMove = 'scissor'} 
+    
+    result = '';
+    if (computerMove === 'paper'){ result = 'TIE'}
+    else if(computerMove === 'stone'){ result = 'YOU WIN'}
+    else if(computerMove === 'scissor'){ result = 'YOU LOSE'}
+    alert(`you select paper, computer select ${computerMove}:- ${result}`)    ">
+            <img src="2.png" alt=""></button>
+
+
+        <button onclick="
+        computerMove = '';
+        randomNumber = Math.random();
+        if (randomNumber > 0 && randomNumber < 1/3)
+    computerMove = 'scissor'
+    else if (randomNumber > 1/3 && randomNumber < 2/3)
+    {computerMove = 'paper'}
+    else if (randomNumber > 2/3 && randomNumber < 1)
+    {computerMove = 'stone'} 
+    
+    result = '';
+    if (computerMove === 'scissor'){ result = 'TIE'}
+    else if(computerMove === 'stone'){ result = 'YOU LOSE'}
+    else if(computerMove === 'paper'){ result = 'YOU WIN'}
+    alert(`you select scissor, computer select ${computerMove}:- ${result}`)        ">
+            <img src="3.png" alt=""></button>
+
+
+    </div>
+
+    <script>
+
+    </script>
+</body>
+
+</html>
